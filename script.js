@@ -258,7 +258,7 @@ const quizData = [
 },{
   question: "Akým jazykom jazykom rozprávajú Rakúšania?",
   a: "slovenským",
-  b: "rakúzskym",
+  b: "rakúskym",
   c: "nemeckým",
   d: "talianskym",
   correct: "c",
@@ -380,8 +380,8 @@ submitBtn.addEventListener('click', () => {
                   <label for="d" id="d_text">${question.d}</label>
                 </li>
                 <li>
-                <h4>Vybral jsi: ${question[quizData[i].correct]}</h4>
-                <h4>Správná odpověď: ${question[answers[i]]}</h4>
+                <h4>Správná odpověď: ${question[quizData[i].correct]}</h4>
+                <h4>Vybral jsi: ${question[answers[i]]}</h4>
 
               
                 </li>
